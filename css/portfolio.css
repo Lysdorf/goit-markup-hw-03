@@ -6,6 +6,7 @@
     text-align: center;
     color: #2e2f42;
     margin: 0;
+    padding: 120px 0;
 }
 .portfolio-container {
     display: flex;
@@ -13,7 +14,6 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 72px;
-    padding: 120px 0;
 }
 .portfolio-list {
     display: flex;
@@ -26,7 +26,6 @@
     max-width: 1158px;
     padding: 0 15px;
     margin: 0;
-    width: 1158px;
 }
 .portfolio-list-item {
     border-bottom: 1px solid #e7e9fc;
