@@ -1,3 +1,10 @@
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 120px 0;
+}
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -6,14 +13,15 @@
     text-align: center;
     color: #2e2f42;
     margin: 0;
-    padding: 120px 0;
 }
 .portfolio-container {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 72px;
+    max-width: 1158px;
 }
 .portfolio-list {
     display: flex;
@@ -24,14 +32,18 @@
     row-gap: 48px;
     column-gap: 24px;
     max-width: 1158px;
-    padding: 0 15px;
     margin: 0;
 }
-.portfolio-list-item {
+.portfolio-list-item{
+    margin: 0;
+    padding: 0;
+    max-width: 360px;
+}
+.portfolio .text-container {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    width: 360px;
+    max-width: 360px;
 }
 .portfolio-list-title {
     font-weight: 500;

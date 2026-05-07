@@ -1,5 +1,5 @@
 .features {
-    padding: 120px 15px;
+    padding: 120px 0;
 }
 .features-container {
     display: flex;
@@ -47,5 +47,5 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: 264px;
+    max-width: 264px;
 }
