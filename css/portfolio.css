@@ -5,14 +5,14 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 0;
-    margin-bottom: 72px;
+    margin: 0;
 }
-.container-portfolio {
+.portfolio-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    gap: 72px;
     padding: 120px 0;
 }
 .portfolio-list {
@@ -40,9 +40,6 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-left: 16px; 
-    margin: 0;
 }
 .portfolio-list-text {
     font-weight: 400;
@@ -50,6 +47,4 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 8px 0 32px 16px;
-    margin: 0;
 }

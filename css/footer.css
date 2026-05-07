@@ -1,19 +1,13 @@
 .footer {
     background: #2e2f42;
-    margin: 0 auto;
-    padding: 0 15px;
+    padding: 100px 0;
     height: auto;
 }
-.container-footer {
+.footer-container {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 16px;
-    padding: 100px 141px;
-    width: 264px;
-    height: 112px;
-    max-width: 264px;
 }
 .footer-logo {
     font-weight: 700;
@@ -40,4 +34,5 @@
     letter-spacing: 0.02em;
     color: #f4f4fd;
     margin: 0;
+    max-width: 264px;
 }

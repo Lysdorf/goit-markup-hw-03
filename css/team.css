@@ -1,13 +1,14 @@
 .team {
     background: #f4f4fd;
     letter-spacing: 0.02em;
+    padding: 120px 15px;
 }
-.container-team {
+.team-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 120px 15px;
+    max-width: 1158px;
 }
 .team-title {
     font-weight: 700;
@@ -24,11 +25,10 @@
     align-items: center;
     gap: 24px;
     margin: 0;
-    padding: 0 15px;
-    width: 1158px;
 }
 .team-list-item {
     background-color: #fff;
+    border-radius: 0 0 4px 4px
 }
 .team-list-title {
     font-weight: 500;
@@ -37,7 +37,6 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin: 32px 16px 0 16px;
 }
 .team-list-text {
     font-weight: 400;
@@ -46,6 +45,5 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin: 8px 16px 32px 16px;
 }
 
